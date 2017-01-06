@@ -1,0 +1,65 @@
+//// to sum two linked list    
+//   public static Node sumitOut(Node head1,Node head2)
+//    {
+//    Node current1=head1;
+//    Node current2=head2;
+//    int sum1=0;
+//    int sum2=0;
+//    int finalSum=0;
+//    int i=0;
+//    int count=0;
+//       while(current1!=null)
+//       {   
+//           count++;
+//           current1=current1.next;
+//                      
+//       }
+//     current1=head1;
+//     i=count-1;
+//    while(i>=0)
+//       {   
+//           
+//           sum1=sum1+current1.data* (int)Math.pow(10,i);
+//           current1=current1.next;
+//           i--;
+//            
+//       }
+//     i=0;
+//     count=0;
+//     
+//        while(current2!=null)
+//       {   
+//           count++;
+//           current2=current2.next;
+//                      
+//       }
+//      current2=head2;  
+//      i=count-1;
+//       while(i>=0)
+//       {   
+//         sum2=sum2+current2.data*(int)Math.pow(10,i);
+//         current2=current2.next;
+//         i--;
+//            
+//       }
+//      finalSum=sum1+sum2;
+//      Node newList=null,temp=null;
+//      String x= Integer.toString(finalSum);
+//      byte[] bytes=x.getBytes();
+//      for(int k=0;k<bytes.length;k++)
+//      {
+//       Node obj= new Node(Character.getNumericValue(bytes[k]));
+//       if(temp!=null)
+//       {
+//       temp.next=obj;
+//       }
+//       else
+//       {
+//       newList=obj;
+//       }
+//       temp=obj;
+//      }
+//           
+//       return newList;
+//      
+//     }

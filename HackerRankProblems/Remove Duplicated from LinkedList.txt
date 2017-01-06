@@ -1,0 +1,25 @@
+// To remove duplciates from Linked List
+
+
+// public static class Node{
+//  Node next;
+//  int data;
+//  public Node(int d){data=d;}
+//
+//  }
+
+
+//        Node current=Head;
+//        Node previous=null;
+
+// using Hash Table approach
+//        Hashtable<Integer,Boolean> hash= new Hashtable<Integer,Boolean>();
+//        while(current!=null)
+//        {
+//       if(hash.containsKey(current.data)) previous.next=current.next;
+//       else
+//       {
+//        hash.put(current.data,true);
+//        previous=current;
+//       }
+//        current=current.next;

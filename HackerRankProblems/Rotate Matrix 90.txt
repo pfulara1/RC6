@@ -1,0 +1,46 @@
+   /////////////////////Matrix 90 Degree rotation////////////////////////
+
+
+    int [][] arr= new int[3][3];
+         int [][] rotate= new int[3][3];
+         int n=0;
+         for(int i=0;i<3;i++)
+         {
+         for(int j=0;j<3;j++)
+        {
+         arr[i][j]=n;
+         n++;
+         }
+         }
+         
+         for(int i=0;i<3;i++)
+         {
+         for(int j=0;j<3;j++)
+         {
+             System.out.print(arr[i][j]);
+         }
+         System.out.print("\n");
+         }
+        
+         for(int i=0;i<3;i++)
+         {
+         int k=2;     
+         for(int j=0;j<3;j++)
+         {
+         rotate[i][j]=arr[k][i];
+         k--;
+         }
+      
+         }
+         
+         System.out.println("\n");
+         System.out.println("after:");
+         for(int i=0;i<3;i++)
+         {
+         for(int j=0;j<3;j++)
+         {
+             System.out.print(rotate[i][j]);
+         }
+          System.out.print("\n");
+         } 
+         

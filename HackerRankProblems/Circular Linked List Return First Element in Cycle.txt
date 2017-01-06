@@ -1,0 +1,38 @@
+    
+// Circular linked list returned the first element of the cycle    
+    
+//    Node Head1= new Node(1);
+//        Node b= new Node(2);
+//        Node c= new Node(5);
+//        Node d= new Node(6);
+//        Node e= new Node(7);
+//        
+//       Head1.next=b;
+//       b.next=c;
+//       c.next=d;
+//       d.next=e;
+//       e.next=b;
+//       
+//       Node current=Head1;
+//       
+//       int j=0;
+//       while(j<6)
+//       {
+//       int i=j+1;     
+//       Node iterator=current;
+//       while(i<=5)
+//       {
+//       if( iterator.next==current)
+//       {
+//          
+//       System.out.println(current.data);
+//       break;
+//       }
+//       else    
+//       iterator=iterator.next;
+//       i++;
+//       }
+//       current=current.next;
+//       j++;
+//       }    
+    

@@ -1,0 +1,41 @@
+/////////////////Check if String Anagram or not////////////////////////
+    
+    String S1= "hell with anagram";
+    String S2= "anagram iwth lleh";
+    char ch=' ';
+   if(S1.length()==S2.length())
+   {
+   int i=0;   
+   while(i<S1.length())
+   {
+     int count1=0;
+     int count2=0;
+    
+     ch=S1.charAt(i);
+     for(int j=0;j<S1.length();j++)
+     {
+      if(ch==S1.charAt(j))
+       count1++;   
+     }
+     for(int l=0;l<S2.length();l++)
+     {
+      if(ch==S2.charAt(l))
+       count2++;   
+     }
+     if(count1!=count2)
+       {
+         System.out.println("Not a anagram!");
+         break;
+     }
+     else
+     {
+         i++;
+     }
+    }
+   System.out.println("Its a anagram!");
+   }
+   else
+   {
+   System.out.println("Not a anagram!");
+   
+   }

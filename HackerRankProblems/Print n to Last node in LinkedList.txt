@@ -1,0 +1,23 @@
+// public static void nToLast(Node head,int n)
+//{
+//  Node current=head;
+//  int count=0;
+//    while(current!=null)
+//    {
+//    count++;
+//    current=current.next;
+//    }
+//    int difference=count-n;
+//    
+//    current=head;
+//    int i=1;
+//    while(i<=difference)
+//    {
+//    if(i==difference)
+//    {
+//    System.out.print(current.data);
+//    break;
+//    }
+//    i++;
+//    current=current.next;
+//    }
