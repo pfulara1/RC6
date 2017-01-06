@@ -1,0 +1,2 @@
+Implement the RC6-w/r/b, where w = 32, and r = 20.The input of your program should be the user key and either plaintext (for encryption) or ciphertext (for decryption).
+The output of your program should be the ciphertext (for decryption) or plaintext (for encryption).
